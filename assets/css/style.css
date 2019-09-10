@@ -1,0 +1,14 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.titulo {
+    padding: 10px;
+}
+
+.instructions {
+    margin: 35px;
+    padding: 25px;
+    background: lightblue;
+}
