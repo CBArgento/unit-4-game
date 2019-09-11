@@ -14,27 +14,93 @@
 </head>
 
 <body background="assets/images/rombos.jpg" style: "background-repeat: no-repeat">
-    <div class="titulo">
-        <h1>Crystals Collector!</h1>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="titulo">
+                <h1>Crystals Collector!</h1>
+            </div>
+        </div>
     </div>
 
-    <div class="instructions">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, molestiae enim exercitationem minus
-            praesentium
-            facilis sapiente vitae quia. Praesentium ducimus beatae harum. Debitis sit provident doloremque corrupti
-            quam
-            eum voluptates.</p>
-        <br>
-        <p>You will be given a random bumber at the start of the game</p>
-        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
-            total
-            score</p>
-        <p>You win the game by matching your total score to random number, you lose the game if your total score goes
-            above
-            the random number</p>
-        <p>The value of each crystal is hidden from you until you click on it.</p>
-        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    <div class="row">
+        <div class="col-md-10">
+            <div class="instructions">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, molestiae enim exercitationem minus
+                    praesentium
+                    facilis sapiente vitae quia. Praesentium ducimus beatae harum. Debitis sit provident doloremque
+                    corrupti
+                    quam
+                    eum voluptates.</p>
+                <br>
+                <p>You will be given a random bumber at the start of the game</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your
+                    total
+                    score</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score
+                    goes
+                    above
+                    the random number</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
     </div>
+
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="stat-header sum-box">
+            <h2>
+                Current Sum <br><span id="current-Sum"></span>
+            </h2>
+        </div>
+    </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="stat-header wins-box">
+                <h2>
+                    Wins <br><span id="wins"></span>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="stat-header loss-box">
+        <h2>
+            Losses <br><span id="losses"></span>
+        </h2>
+    </div>
+    <div class="stat-header target-box">
+        <h2>
+            Target Total <br><span id="target-Num"></span>
+        </h2>
+    </div>
+
+    </div>
+
+    <div class="diamonds">
+        <div class="row">
+            <section class="crystals image-group1">
+                <img class="crystal-image" id="blue" src="./assets/images/bluegem.jpg" style="width: 70" height="70">
+                <img class="crystal-image" id="green" src="assets/images/greengem.jpg" style="width: 70" height="70">
+            </section>
+<br>
+            <section class="crystals image-group2">
+                <img class="crystal-image" id="purple" src="assets/images/purplegem.jpg" style="width: 70" height="70">
+                <img class="crystal-image" id="red" src="assets/images/redgem.jpg" style="width: 70" height="70">
+            </section>
+        </div>
+    </div>
+
+    <h2>Your total score is:</h2>
+    <br>
+
 </body>
 
 </html>
