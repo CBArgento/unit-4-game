@@ -20,6 +20,7 @@ h1 {
 
 .diamonds {
     background: gray;
-    margin: 25px;
+    margin: 15px;
     padding: 25px;
+    width: 545px;
 }
