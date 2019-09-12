@@ -10,17 +10,45 @@ h1 {
     padding: 10px;
     background-color: red;
     color: white;
+    width: 545px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .instructions {
     background: lightblue;
     margin-top: 10px;
     padding: 10px;
+    width: 620px;
 }
 
 .diamonds {
     background: gray;
     margin: 15px;
     padding: 25px;
-    width: 545px;
+    width: 355px;
+}
+
+.yourtotal {
+    background: gray;
+    width: 345px;
+    height: 45px;
+}
+
+.score {
+    background: gray;
+    width: 345px;
+    height: 200px;;
+}
+
+.sum {
+    background: green;
+    width: 345px;
+    height: 145px; 
+}
+
+.winlosse {
+    background: lightblue;
+    width: 145px;
+    height: 100px;
 }
