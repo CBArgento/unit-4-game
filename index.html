@@ -7,11 +7,15 @@
     <title>Unit-4-Game</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <script src='assets/javascript/gamecode.js'></script>
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    </head>
 
 <body background="assets/images/rombos.jpg" style: "background-repeat: no-repeat">
     <div class="row">
@@ -22,17 +26,10 @@
         </div>
     </div>
 
-    
+
     <div class="row">
         <div class="col-md-10">
             <div class="instructions">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, molestiae enim exercitationem minus
-                    praesentium
-                    facilis sapiente vitae quia. Praesentium ducimus beatae harum. Debitis sit provident doloremque
-                    corrupti
-                    quam
-                    eum voluptates.</p>
-                <br>
                 <p>You will be given a random bumber at the start of the game</p>
                 <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
                     your
@@ -48,63 +45,32 @@
         </div>
     </div>
     <br>
-    <div class="row">
-        <div class="col-md-10">
-            <div class="sum">
-                <div class="stat-header sum-box">
-                    <h2>
-                        Current Sum: <br><span id="current-Sum"></span>
-                    </h2>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="col-md-5">
-            <div class="winlosse">
-                <div class="stat-header wins-box">
-                    <h2>
-                        Wins: <br><span id="wins"></span>
-                    </h2>
-                </div>
-                <div class="stat-header loss-box">
-                    <h2>
-                        Losses: <br><span id="losses"></span>
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="stat-header target-box">
-        <h2>
-            Target Total: <br><span id="target-Num"></span>
-        </h2>
-    </div>
+    <h2>Won:</h2>
 
-    <div class="diamonds">
-        <div class="row">
-            <section class="crystals image-group1">
-                <img class="crystal-image" id="blue" src="./assets/images/bluegem.jpg" style="width: 70" height="70">
-                <img class="crystal-image" id="green" src="assets/images/greengem.jpg" style="width: 70" height="70">
-                <img class="crystal-image" id="purple" src="assets/images/purplegem.jpg" style="width: 70" height="70">
-                <img class="crystal-image" id="red" src="assets/images/redgem.jpg" style="width: 70" height="70">
-            </section>
-        </div>
-    </div>
+    <span id="wins"></span>
 
-    <div class="yourtotal">
-        <h2>Your total score is:</h2>
-    </div>
-    <br>
-    <div class="score">
-        <section>
+    <h3>Lost: </h3>
 
-        </section>
-    </div>
-
-    <div class="crystals">
+    <span id="lost"></span>
+    <h4>Number to Guess:<span id="number"></span></h4>
+    <p class="col-12">
+        <img class="crystal" id="blue" src="assets/images/bluegem.jpg" style="width: 70" height="70">
+        <img class="crystal" id="green" src="assets/images/greengem.jpg" style="width: 70" height="70">
+        <img class="crystal" id="purple" src="assets/images/purplegem.jpg" style="width: 70" height="70">
+        <img class="crystal" id="red" src="assets/images/redgem.jpg" style="width: 70" height="70">
+    </p>
 
     </div>
 
+    <h3>Your Score:</h3>
+
+    <span id="score"></span>
+    <h3 id="winLose"></h3>
+    </div>
+    </div>
+    </div>
+
+    <script src="assets/javascript/game.js"> </script>
 </body>
 
 </html>
